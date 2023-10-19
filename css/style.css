@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+ul{
+    list-style: none;
+}
+   body{
+    background-color: #f5f5f5;  
+     font-family: 'Roboto', sans-serif;
+ 
+}
+
+div{
+    background-color: #f85606;
+    height: 100px;
+    padding-left: 20px;
+}
+div a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
+
+input{
+    margin-left: 20px;
+    height: 45px;
+    border-radius: 10px;
+    width: 700px;
+}
+nav{
+     margin: 20px 40px; 
+     
+    width: 250px;
+    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+background-color: white;
+border-radius: 10px;
+height: 300px;
+display: inline-block;}
+
+nav ul{
+    text-align: left;
+    margin-top: 10px;
+
+}
+nav ul li{
+    position: relative;
+   padding: 5px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.459);
+    display: block;
+    font-size: 13px;
+    
+}
+nav ul li:hover >a {
+    color: orangered;
+}
+    nav ul li:hover {
+    background-color: #f5f5f5;
+}
+.dropdown_list{
+    
+    width: 200px;
+    border: 1px solid blanchedalmond;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    text-align: left;
+    left: 100%;
+
+    background-color: white;
+    border-radius: 10px;
+    height: 350px;
+}
+.dropdown_list li{
+    display: block;
+
+
+}
+
+nav ul li:hover >.dropdown_list{
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+}
+
+
+.t_wear{
+    height: 70px;
+    border-radius: 100%;
+}
+.dropdown_list1 li{
+    display: inline-block;
+    margin-left: 50px;
+
+}
+.dropdown_list1 a{
+    text-align: center;
+}
+.dropdown_list1{
+    opacity: 0;
+    visibility: hidden;
+    width: 500px;
+    left: 100%;
+    position: absolute; 
+    background-color: white;
+
+    border-radius: 5px;
+    border: 1px solid blanchedalmond;
+
+}
+.dropdown_list li:hover .dropdown_list1{
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+}
+.pic{
+    margin-top:100px;
+}
